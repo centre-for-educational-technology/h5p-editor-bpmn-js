@@ -1,0 +1,21 @@
+{
+  "title": "BPMN 2.0 Diagrams Editor",
+  "description": "Editor for BPMN 2.0 Diagrams H5P integration",
+  "majorVersion": 1,
+  "minorVersion": 0,
+  "patchVersion": 0,
+  "runnable": 0,
+  "author": "HTK",
+  "license": "MIT",
+  "machineName": "H5PEditor.BpmnJS",
+  "preloadedJs": [
+    {
+      "path": "scripts/index.js"
+    }
+  ],
+  "preloadedCss": [
+    {
+      "path": "styles/main.css"
+    }
+  ]
+}
