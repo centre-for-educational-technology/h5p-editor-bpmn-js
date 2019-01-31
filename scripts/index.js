@@ -7,17 +7,17 @@
     window.BPMN_MODELER_JS_LOADED = true;
     var script = document.createElement("script");
     script.id = 'bpmn-modeler-script';
-    script.src = "https://unpkg.com/bpmn-js@3.1.0/dist/bpmn-modeler.development.js";
+    script.src = "https://unpkg.com/bpmn-js@3.2.0/dist/bpmn-modeler.production.min.js";
     document.head.appendChild(script);
 
     var style1 = document.createElement('link');
     style1.rel = 'stylesheet';
-    style1.href = 'https://unpkg.com/bpmn-js@3.1.0/dist/assets/diagram-js.css';
+    style1.href = 'https://unpkg.com/bpmn-js@3.2.0/dist/assets/diagram-js.css';
     document.head.appendChild(style1);
 
     var style2 = document.createElement('link');
     style2.rel = 'stylesheet';
-    style2.href = 'https://unpkg.com/bpmn-js@3.1.0/dist/assets/bpmn-font/css/bpmn.css';
+    style2.href = 'https://unpkg.com/bpmn-js@3.2.0/dist/assets/bpmn-font/css/bpmn.css';
     document.head.appendChild(style2);
   })();
 
