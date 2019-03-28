@@ -3,7 +3,7 @@
   "description": "Editor for BPMN 2.0 Diagrams H5P integration",
   "majorVersion": 1,
   "minorVersion": 0,
-  "patchVersion": 1,
+  "patchVersion": 2,
   "runnable": 0,
   "author": "HTK",
   "license": "MIT",
